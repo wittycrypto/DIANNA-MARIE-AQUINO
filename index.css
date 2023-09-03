@@ -1,3 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.section-padding {
+	padding: 60px 0;
+}
+.brand-carousel {
+	background: #eee;
+	margin-top: 5%;
+}
+.owl-dots {
+	text-align: center;
+	margin-top: 4%;
+}
+.owl-dot {
+	display: inline-block;
+	height: 15px !important;
+	width: 15px !important;
+	background-color: #878787 !important;
+	opacity: 0.8;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+.owl-dot.active {
+	background-color: #000 !important;
+}
+
+img {
+
+  }
+
+/*Landing Title*/
+#title{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 72px;
+	/* or 112% */
+
+	display: flex;
+	align-items: flex-end;
+	letter-spacing: -0.02em;
+
+	color: #FFFFFF;
+}
+
+#title-text{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	/* or 125% */
+
+
+	color: #FFFFFF;
+}
+
+#base{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 8px;
+    
+    width: 180px;
+    height: 48px;
+    
+    background: #B59066;
+    border-radius: 999px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    /* Button/Text/button-primary-text */
+    
+    color: #FFFFFF;
+    }
+    
+#landing{
+	background:
+
+		linear-gradient(
+			
+			rgba(0, 0, 0, 0.59),
+			rgba(0, 0, 0, 0.59)
+				 
+		),
+		url("./pictures/landing.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+        height: fit-content
+	;
+}
+
+#contact-image{
+	background:
+
+		linear-gradient(
+			
+			rgba(0, 34, 65, 0.61),
+			rgba(0, 34, 65, 0.61)
+				 
+		),
+		url("./pictures/ma3.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	;
+}
+
+#contact-header{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: flex-end;
+
+	color: #765C3D;
+}
+
+#contact-text{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #765C3D;
+}
+
+#contact form label{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+
+	color: #765C3D;
+}
+
 .nav-item {
     position: relative;
     padding-bottom: 0px;

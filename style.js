@@ -5,3 +5,5 @@ $('#carouselModal').on('show.bs.modal', function () {
   $('#carouselModal').on('hidden.bs.modal', function () {
     $('.modal-dialog').removeClass('modal-fullscreen');
   });
+
+  
