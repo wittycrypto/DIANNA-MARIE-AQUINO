@@ -6,11 +6,11 @@
 }
 
 .section-padding {
-	padding: 60px 0;
+	padding: 1% 0;
 }
 .brand-carousel {
-
-	margin-top: 5%;
+	background: #eee;
+	margin-top: 1%;
 }
 .owl-dots {
 	text-align: center;
