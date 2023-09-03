@@ -9,12 +9,12 @@
 	padding: 60px 0;
 }
 .brand-carousel {
-	background: #eee;
+
 	margin-top: 5%;
 }
 .owl-dots {
 	text-align: center;
-	margin-top: 4%;
+
 }
 .owl-dot {
 	display: inline-block;
@@ -28,10 +28,6 @@
 .owl-dot.active {
 	background-color: #000 !important;
 }
-
-img {
-
-  }
 
 /*Landing Title*/
 #title{
