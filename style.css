@@ -1,112 +1,133 @@
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .brands-wrap {
-  padding-top: 10%; 
-  max-width: 960px;
-  margin: 0 auto;
+    padding-top: 10%; 
+    max-width: 960px;
+    margin: 0 auto;
 }
+
 .carousel {
-  background: transparent;
+    background: transparent;
 }
+
 .gallery-cell {
-  width: 100%; /* half-width */
-  height: auto;
-  padding: 0 15px; 
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-  @media (min-width: 548px) {
+    width: 100%; /* half-width */
+    height: auto;
+    padding: 0 15px; 
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @media (min-width: 548px) {
     width: 33.3%;
-  }
-  &.is-selected {
-    img {
-      transform: scale(1);
-      -webkit-filter: grayscale(0) blur(0); 
-      filter: grayscale(0) blur(0); 
     }
-  }
-  img {
+        &.is-selected {
+        img {
+            transform: scale(1);
+            -webkit-filter: grayscale(0) blur(0); 
+            filter: grayscale(0) blur(0); 
+        }
+    }
+
+    img {
     transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
     max-width: 150px;
     display: inline-block; 
     transform: scale(0.7);
     -webkit-filter: grayscale(100%) blur(2px); 
     filter: grayscale(100%) blur(2px); 
-  }
+    }
+
 }
+
 .flickity-prev-next-button.previous {
-  left: -40px;
- 
+    left: -40px;
+    color: black;
+
 }
 .flickity-prev-next-button.next {
-  right: -40px;
+    right: -40px;
+    color: black;
 }
 
 .brand-carousel {
- margin: 0 60px; /* space for prev/next buttons */
+    margin: 0 60px; /* space for prev/next buttons */
 }
+
 .flickity-prev-next-button .arrow {
-  fill: white;
-  box-shadow: 0 0 5px black; 
+    fill: black;
+    box-shadow: 0 0 5px black; 
 }
+
+.arrow {
+    fill: black;
+    box-shadow: 0 0 5px black; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
 .flickity-prev-next-button.no-svg {
-  color: white;
+    color: black;
 }
+
 .flickity-prev-next-button {
-  background: transparent;
-  &:hover {
+    background: transparent;
+    &:hover {
     background: transparent; 
-  }
+    }
 }
 
 .nav-item {
-  position: relative;
-  padding-bottom: 0px;
-  transition: color .35s ease;
-  &:before {
-    content: '';
-    display:block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    width: 0;
-    transition: width 0s ease, background .35s ease;
-  }
-  &:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 2px;
-    width: 0;
-    background: #000;
-    transition: width .35s ease;
-  }
-  &:hover:before {
-    width: 100%;
-    background: #000;
-    transition: width .35s ease;
-  }
-  &:hover:after {
-    width: 100%;
-    background: transparent;
-    transition: all 0s ease;
-  }
-}
+    position: relative;
+    padding-bottom: 0px;
+    transition: color .35s ease;
 
-body {
-  margin: 20px; /* Add margin to the body */
+        &:before {
+        content: '';
+        display:block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 0;
+        transition: width 0s ease, background .35s ease;
+    }
+
+        &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        width: 0;
+        background: #000;
+        transition: width .35s ease;
+    }
+
+        &:hover:before {
+        width: 100%;
+        background: #000;
+        transition: width .35s ease;
+    }
+
+        &:hover:after {
+        width: 100%;
+        background: transparent;
+        transition: all 0s ease;
+    }
 }
 
 .container {
-  margin-left: auto; /* Add margin to the container */
-  margin-right: auto;
-  max-width: 100%; /* Occupy the whole page space */
+    margin-left: auto; /* Add margin to the container */
+    margin-right: auto;
+    max-width: 100%; /* Occupy the whole page space */
 }
 
 .modal-fullscreen {
@@ -116,7 +137,7 @@ body {
     max-height: 80%;
     margin: auto;
     padding: auto;
-  }
+}
 
 .modal-footer {
     display: flex;
@@ -127,4 +148,4 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
