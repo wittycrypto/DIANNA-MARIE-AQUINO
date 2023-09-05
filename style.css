@@ -71,6 +71,7 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(100%);
+  
 }
 
 .flickity-prev-next-button.no-svg {
@@ -154,3 +155,22 @@
     align-items: center;
 }
 
+body {
+    color: black;
+    background: #FFF;
+    font-family: "Effra", Helvetica, sans-serif;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+.fa-xmark {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: black;
+}
